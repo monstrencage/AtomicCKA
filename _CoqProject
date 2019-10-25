@@ -5,14 +5,9 @@ finite_types.v
 algebra.v
 relations.v
 subword.v
-bindings.v
-bindings_ax.v
 types_of_bsp.v
 sp_terms.v
-brackets.v
-brack_terms.v
 bsp_terms.v
-unbox_terms.v
 finite_expr.v
 pomsets.v
 dec_order_pomset.v
@@ -22,7 +17,5 @@ sp_pomsets.v
 bsp_pomsets.v
 pomset_isomorphism.v
 finexp_pomsets.v
-# unbox_pomset.v
-# completeness_bsp_iso.v
 completeness_finexpr.v
 pomset_homomorphism.v

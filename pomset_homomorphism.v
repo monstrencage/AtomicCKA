@@ -1678,7 +1678,7 @@ Section s.
       - intros h.
         case_in (f ̃ e) l.
         + exfalso;apply h;exists (f ̃ e);split;[apply inverse_elim2|assumption].
-        + exists (f̃ e);split;[apply inverse_elim2|assumption].
+        + exists (f ̃ e);split;[apply inverse_elim2|assumption].
       - intros (e'&<-&Ie) (e''&E&F);apply is_injective in E as ->;apply Ie,F.
     Qed.
 
